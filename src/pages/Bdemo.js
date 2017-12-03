@@ -1,0 +1,33 @@
+// 本章--元素渲染
+
+import React from 'react';
+import '../css/style.css';
+
+export default class one extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {date: new Date()};
+  }
+
+  componentDidMount(){
+    this.timerID = setInterval(() => this.tick(),1000);
+  }
+
+  componentWillUnmount(){
+    clearInterval(this.timerID);
+  }
+
+  tick(){
+    this.setState({
+      date: new Date()
+    });
+  }
+
+  render() {
+    return (
+      <div className="center">
+           <h2>{this.state.date.toLocaleTimeString()}.</h2>
+      </div>
+    );
+  }
+}

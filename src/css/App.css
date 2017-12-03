@@ -1,0 +1,45 @@
+
+/*
+      入口文件引入 antd 组件样式 
+*/
+@import '~antd/dist/antd.css';
+
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+body{
+  overflow-x:hidden; 
+  /* color:#fff; */
+}
+img{
+  max-width:100%;
+  display: inline-block;
+  
+}
+.App {
+  width: 62.5%;
+  margin:0 auto;
+  color:#fff;
+}
+.App-head{
+  text-align: center;
+}
+.react{
+  color:#fff;
+  font-size:36px;
+}
+.App-carousel{
+  width:100%;
+  margin: 0 auto;
+}
+
+.App-intro{
+  text-align: center;
+}
+.App-intro h1{
+  font-size:36px;
+  color:#fff;
+  text-align: center;
+}

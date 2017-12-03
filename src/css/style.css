@@ -1,0 +1,87 @@
+.center{
+    width:10%;
+    font-size:30px;
+    font-weight: 900;
+    margin-left:200px;
+    padding-top:120px;  
+}
+
+
+.content{
+    color:rgba(2, 2, 139, 0.8);
+    width:25%;
+    font-size:30px;
+    padding-top:120px;
+    float: left;
+    margin-left:50px;
+}
+
+
+.MarkDownEditor{
+    width:10%;
+    float: left;
+    margin-left:50px;
+    padding-top:130px; 
+}
+.MarkDownEditor button{
+    width:100%;
+    padding:5px;
+    font-size:30px;
+    background: rgba(2, 2, 139, 0.6);
+    border:none;
+    color:#fff;
+}
+
+
+.elent{
+    width:10%;
+    float: left;
+    margin-left:50px;
+    padding-top:120px; 
+}
+.elent h1{
+    color:rgb(24, 221, 24);
+    font-size:36px;
+}
+.elent a{
+    font-size:36px;
+    font-weight: 900;
+    color:rgba(2, 2, 139, 0.6);
+}
+
+
+
+.form-com{
+    float: left;
+    width:15%;
+    margin-left:50px;
+    padding-top:100px; 
+}
+.form-com input[type=text]{
+    width: 79%;
+    padding:1.5% 0;
+    border:1px solid rgba(2, 2, 139, 0.6);
+    vertical-align: middle;
+    text-indent:9px;
+}
+.form-com input[type=checkbox]{
+    vertical-align: middle;
+    margin-top:2px;
+}
+.form-com label{
+    font-size:20px;
+    color:rgba(2, 2, 139, 0.6);
+    vertical-align: middle
+}
+.form-com select{
+    width:77%;
+    padding:1.5% 0;
+}
+.form-com button{
+    width:100%;
+    padding:1.5% 0;
+    border:1px solid rgba(2, 2, 139, 0.6);
+    background: none;
+    color:rgba(2, 2, 139, 0.6);
+    font-size:20px;
+}
